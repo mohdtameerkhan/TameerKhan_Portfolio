@@ -29,10 +29,10 @@ export function Experience() {
   ];
 
   return (
-    <section className="mx-auto w-full max-w-[1200px] px-5 py-24 sm:px-8">
+    <section className="mx-auto w-full max-w-300 px-5 py-24 sm:px-8">
 
       {/* Header */}
-      <div className="mb-14 border-t border-white/[0.08] pt-5">
+      <div className="mb-14 border-t border-white/8 pt-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="h-1.5 w-1.5 rounded-full bg-[#7DB7FF]" />
@@ -50,13 +50,12 @@ export function Experience() {
 
       {/* Title */}
       <div className="mb-16">
-        <h2 className="text-5xl tracking-tight text-[#F3F0E8] sm:text-6xl">
+        <h2 className="text-4xl tracking-tight text-[#F3F0E8] sm:text-4xl">
           Work <span className="text-[#7DB7FF]">Experience.</span>
         </h2>
 
         <p className="mt-5 max-w-xl text-sm leading-6 text-[#8D9AAF] sm:text-base">
-          My professional journey across software engineering roles,
-          building real-world applications across different industries.
+          My journey in frontend engineering, building scalable interfaces, integrating APIs, and creating real-world web applications.
         </p>
       </div>
 
@@ -64,7 +63,7 @@ export function Experience() {
       <div className="relative">
 
         {/* Vertical line */}
-        <div className="absolute left-[5px] top-3 bottom-3 w-px bg-white/10" />
+        <div className="absolute left-1.25 top-3 bottom-3 w-px bg-white/10" />
 
         {experiences.map((exp) => {
           const isActive = activeId === exp.id;
