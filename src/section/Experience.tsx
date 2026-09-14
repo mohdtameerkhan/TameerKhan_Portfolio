@@ -29,10 +29,10 @@ export function Experience() {
   ];
 
   return (
-    <section className="mx-auto w-full max-w-300 px-5 py-24 sm:px-8">
+    <section className="mx-auto w-full max-w-300 px-3 py-24 sm:px-8">
 
       {/* Header */}
-      <div className="mb-14 border-t border-white/8 pt-5">
+      <div className="mb-7 border-t border-white/8 pt-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="h-1.5 w-1.5 rounded-full bg-[#7DB7FF]" />

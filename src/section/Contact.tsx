@@ -1,4 +1,9 @@
 
+"use client";
+
+import { SiGithub } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa6";
+
 export function Contact() {
   return (
     <footer className="mx-auto w-full max-w-300 px-5 pb-8 pt-16 sm:px-8">
@@ -25,39 +30,48 @@ export function Contact() {
             </a>
           </div>
 
-          {/* Links */}
-          <div className="flex gap-6 text-[10px] uppercase tracking-[0.18em] text-white/45">
+          {/* Social Links */}
+          <div className="flex items-center gap-5 text-white/40">
+
             <a
               href="https://github.com/mohdtameerkhan"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="GitHub"
               className="transition-colors hover:text-[#7DB7FF]"
             >
-              GitHub ↗
+              <SiGithub size={20} />
             </a>
 
             <a
               href="https://www.linkedin.com/in/mohd-tameer-khan-479b39184/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn"
               className="transition-colors hover:text-[#7DB7FF]"
             >
-              LinkedIn ↗
+              <FaLinkedinIn size={20} />
             </a>
+
           </div>
 
         </div>
 
         {/* Bottom */}
         <div className="mt-8 flex flex-col gap-3 border-t border-white/8 pt-5 text-[9px] uppercase tracking-[0.16em] text-white/25 sm:flex-row sm:items-center sm:justify-between">
-          <span>© {new Date().getFullYear()} Tameer Khan</span>
+
+          <span>
+            © {new Date().getFullYear()} Tameer Khan
+          </span>
 
           <span>
             Designed & Built with Next.js
           </span>
+
         </div>
 
       </div>
     </footer>
   );
 }
+

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { InteractiveGrid } from "@/components/ui/InteractiveGrid";
+//import { InteractiveGrid } from "@/components/ui/InteractiveGrid";
 
 
 
@@ -34,6 +35,8 @@ export default function RootLayout({
       <body className="relative min-h-screen overflow-x-hidden">
         
 <InteractiveGrid/>
+
+
         {children}
       </body>
     </html>

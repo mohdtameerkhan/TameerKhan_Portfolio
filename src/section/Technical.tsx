@@ -32,10 +32,10 @@
     ];
 
     return (
-        <section className="mx-auto w-full max-w-[1200px] px-5 py-24 sm:px-8 md:py-32">
+        <section className="mx-auto w-full max-w-300 px-5 py-24 sm:px-8 md:py-32">
 
         {/* Header */}
-        <div className="mb-14 border-t border-white/[0.08] pt-5">
+        <div className="mb-10 border-t border-white/8 pt-5">
             <div className="flex items-center justify-between">
 
             <div className="flex items-center gap-3">
@@ -75,9 +75,9 @@
                 <div
                 key={item.id}
                 onClick={() => setactiveID(item.id)}
-                className={`cursor-pointer border-b border-white/[0.06] px-5 py-4 text-left text-sm transition-colors ${
+                className={`cursor-pointer border-b border-white/6 px-5 py-4 text-left text-sm transition-colors ${
                     activeID === item.id
-                    ? "border-l-2 border-[#7DB7FF] bg-white/[0.03] text-[#F3F0E8]"
+                    ? "border-l-2 border-[#7DB7FF] bg-white/3 text-[#F3F0E8]"
                     : "text-white/35 hover:text-white/70"
                 }`}
                 >
@@ -100,7 +100,7 @@
             </div>
 
             {/* Skills Content */}
-            <div className="min-h-[220px] border border-white/[0.08] bg-white/[0.02] p-6 sm:p-8">
+            <div className="min-h-55 border border-white/8 bg-white/2 p-6 sm:p-8">
 
             {skills.map((item) => (
                 <div
@@ -122,7 +122,7 @@
                     {item.skills.map((lang) => (
                     <div
                         key={lang}
-                        className="border-b border-white/[0.08] py-3 text-sm text-white/50 transition-colors hover:text-[#F3F0E8]"
+                        className="border-b border-white/8 py-3 text-sm text-white/50 transition-colors hover:text-[#F3F0E8]"
                     >
                         {lang}
                     </div>

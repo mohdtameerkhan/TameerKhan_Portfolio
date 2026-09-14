@@ -42,7 +42,7 @@ export function About() {
     <section className="mx-auto w-full max-w-300 px-5 py-24 sm:px-8 md:py-32">
 
       {/* Section heading */}
-      <div className="mb-14 flex items-center justify-between border-t border-white/[0.08] pt-5">
+      <div className="mb-14 flex items-center justify-between border-t border-white/8 pt-5">
         <div className="flex items-center gap-3">
           <span className="h-1.5 w-1.5 rounded-full bg-[#7DB7FF] shadow-[0_0_12px_rgba(125,183,255,0.6)]" />
 
@@ -60,17 +60,17 @@ export function About() {
       <div className="flex flex-col gap-8 md:flex-row md:items-start md:gap-10">
 
         {/* ================= IMAGE ================= */}
-        <div className="md:flex-[3]">
+        <div className="md:flex-3">
 
-          <div className="group relative mx-auto aspect-[4/5] w-full max-w-[340px] overflow-hidden rounded-2xl border border-white/[0.10] bg-white/[0.035] p-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl transition-transform duration-500 hover:scale-[1.02] md:mx-0">
+          <div className="group relative mx-auto aspect-4/5 w-full max-w-85 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.035] p-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl transition-transform duration-500 hover:scale-[1.02] md:mx-0">
 
             <div className="relative h-full w-full overflow-hidden rounded-xl">
               <Image
                 src="/images/tameer.jpeg"
-                alt="Tameer Khan"
+                alt="tameer Khan"
                 fill
                 sizes="(max-width: 768px) 90vw, 340px"
-                className=" object-center object-center  transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                className=" object-center  transition-transform duration-700 ease-out group-hover:scale-[1.04]"
               />
             </div>
 
@@ -83,7 +83,7 @@ export function About() {
         </div>
 
         {/* ================= CONTENT ================= */}
-        <div className="group rounded-2xl border border-white/[0.10] bg-white/[0.025] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-xl transition-transform duration-500 hover:scale-[1.01] sm:p-8 md:flex-[7] md:p-10">
+        <div className="group rounded-2xl border border-white/10 bg-white/2.5 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-xl transition-transform duration-500 hover:scale-[1.01] sm:p-8 md:flex-7 md:p-10">
 
           {/* Heading */}
           <h2 className="text-[clamp(2rem,2vw,5rem)] leading-[0.9] tracking-[-0.055em] text-[#F3F0E8]">
@@ -106,7 +106,7 @@ export function About() {
               return (
                 <div
                   key={interest.title}
-                  className="group/interest flex min-h-[20px] items-center gap-4 rounded-xl border border-white/[0.07] bg-white/[0.025] p-0.5 backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-white/[0.14] hover:bg-white/[0.045]"
+                  className="group/interest flex min-h-5 items-center gap-4 rounded-xl border border-white/[0.07] bg-white/2.5 p-0.5 backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-white/[0.14] hover:bg-white/4.5"
                 >
 
                   {/* Icon */}
@@ -135,7 +135,7 @@ export function About() {
           </div>
 
           {/* Bottom */}
-          <div className="mt-4 flex flex-col gap-6 border-t border-white/[0.08] pt-8 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mt-4 flex flex-col gap-6 border-t border-white/8 pt-8 sm:flex-row sm:items-center sm:justify-between">
 
             <h3 className="max-w-md text-lg font-medium leading-snug tracking-tight text-[#F3F0E8]">
               Open to building and shipping impactful products.
@@ -144,7 +144,7 @@ export function About() {
             <a
               href="/resume.pdf"
               download
-              className="group inline-flex w-fit items-center gap-3 rounded-lg border border-white/[0.10] bg-white/[0.025] px-5 py-3 text-[10px] uppercase tracking-[0.18em] text-white/55 backdrop-blur-md transition-all duration-300 hover:border-[#7DB7FF]/40 hover:bg-white/[0.05] hover:text-[#F3F0E8]"
+              className="group inline-flex w-fit items-center gap-3 rounded-lg border border-white/10 bg-white/2.5 px-5 py-3 text-[10px] uppercase tracking-[0.18em] text-white/55 backdrop-blur-md transition-all duration-300 hover:border-[#7DB7FF]/40 hover:bg-white/5 hover:text-[#F3F0E8]"
             >
               Download Resume
 

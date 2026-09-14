@@ -1,3 +1,6 @@
+import { SiGithub } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa6"
+
 export function Hero() {
   return (
     <section className="relative flex min-h-screen items-center px-5 py-10 sm:px-8 sm:py-12 md:items-end md:px-10 md:pb-12 md:pt-28 lg:px-14 lg:pb-14 lg:pt-32 xl:px-16 xl:pb-16">
@@ -51,7 +54,7 @@ export function Hero() {
                 rel="noopener noreferrer"
                 className="transition-colors duration-300 hover:text-[#A8C7FA]"
               >
-                GitHub <span className="ml-1">↗</span>
+                <SiGithub size={20} /> 
               </a>
 
               <a
@@ -60,7 +63,7 @@ export function Hero() {
                 rel="noopener noreferrer"
                 className="transition-colors duration-300 hover:text-[#A8C7FA]"
               >
-                LinkedIn <span className="ml-1">↗</span>
+                <FaLinkedinIn size={20} /> 
               </a>
             </div>
 
