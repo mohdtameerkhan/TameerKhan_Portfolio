@@ -2,6 +2,7 @@ import { About } from "@/section/About";
 import { Contact } from "@/section/Contact";
 import { Experience } from "@/section/Experience";
 import { Hero } from "@/section/Hero";
+import { Project } from "@/section/Project";
 import { Technical } from "@/section/Technical";
 //import { MotionTest } from "@/components/ui/MotionTest";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Experience/>
+      <Project/>
       <Technical/>
       <Contact/>
     </main>

@@ -55,7 +55,7 @@
 
         {/* Title */}
         <div className="mb-14 max-w-2xl">
-            <h2 className="text-5xl tracking-tight text-[#F3F0E8] sm:text-6xl">
+            <h2 className="text-2xl tracking-tight text-[#F3F0E8] sm:text-6xl">
             Tech <span className="text-[#7DB7FF]">Skills.</span>
             </h2>
 
