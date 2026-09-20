@@ -9,8 +9,8 @@ export function Hero() {
         {/* Top metadata */}
         <div className="mb-10 flex items-center justify-between text-[9px] uppercase tracking-[0.16em] text-[#7F8DA3] sm:mb-14 sm:text-[10px] sm:tracking-[0.2em] md:mb-16 md:text-[11px]">
           <span>
-            Based in{" "}
-            <span className="text-[#A8B7CC]">Kuwait</span>
+            Open to{" "}
+            <span className="text-[#A8B7CC]">Global Roles</span>
           </span>
 
           <span className="hidden sm:block">

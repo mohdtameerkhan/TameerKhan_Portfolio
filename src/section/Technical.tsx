@@ -100,7 +100,7 @@
             </div>
 
             {/* Skills Content */}
-            <div className="min-h-55 border border-white/8 bg-white/2 p-6 sm:p-8">
+            <div className="h-70 border border-white bg-white/2 p-6 sm:p-8">
 
             {skills.map((item) => (
                 <div

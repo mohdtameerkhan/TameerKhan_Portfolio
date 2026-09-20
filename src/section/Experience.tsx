@@ -10,21 +10,20 @@ export function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Frontend Developer",
+      title: "Frontend Engineer",
       year: "Full time",
-      company: "Pathlabs",
-      date: "Date — Date",
+      company: "Palat RestoLabs",
+      date: "Sep 2023 — Present",
       description:
-        "Contributed to OptaCut and OptaPlan, manufacturing SaaS platforms serving 200+ clients with cutting optimization and production planning solutions. Built full-stack features spanning React UIs, REST APIs, and database architecture to improve workflow efficiency and system performance.",
+        "Worked as a Frontend Engineer, building responsive and user-friendly web applications with React, Next.js, TypeScript, and Tailwind CSS. Developed reusable UI components, integrated APIs, worked with application state and frontend architecture, and focused on creating clean, performant, and accessible interfaces. Collaborated on turning ideas and designs into functional web experiences across desktop and mobile devices.",
     },
     {
       id: 2,
-      title: "Frontend Developer",
+      title: "Frontend Development Intern",
       year: "Full time",
-      company: "Pathlabs",
-      date: "Date — Date",
-      description:
-        "Contributed to OptaCut and OptaPlan, manufacturing SaaS platforms serving 200+ clients with cutting optimization and production planning solutions. Built full-stack features spanning React UIs, REST APIs, and database architecture to improve workflow efficiency and system performance.",
+      company: "Digipodium",
+      date: "May 2022 — June 2023",
+      description:"Worked on frontend development projects using HTML, CSS, JavaScript, and React. Built responsive and reusable UI components, implemented interactive features, integrated APIs, and worked with Git/GitHub during the development process. Gained practical experience in component-based development, responsive design, debugging, and building user-focused web applications."
     },
   ];
 
